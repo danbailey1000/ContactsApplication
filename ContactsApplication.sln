@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D0C3C5CA-2ABC-46F1-9EA9-E75EA4A51AA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6E9022C-EDB3-4980-80B3-CE0E96053A07}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ContactsApplication", "src\ContactsApplication\ContactsApplication.xproj", "{622DA2D7-9364-4B9E-ACD5-C575DBE7CBC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{622DA2D7-9364-4B9E-ACD5-C575DBE7CBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622DA2D7-9364-4B9E-ACD5-C575DBE7CBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622DA2D7-9364-4B9E-ACD5-C575DBE7CBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622DA2D7-9364-4B9E-ACD5-C575DBE7CBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{622DA2D7-9364-4B9E-ACD5-C575DBE7CBC5} = {D0C3C5CA-2ABC-46F1-9EA9-E75EA4A51AA4}
+	EndGlobalSection
+EndGlobal
